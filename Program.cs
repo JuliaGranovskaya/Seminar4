@@ -56,3 +56,20 @@
 
 // int[] myArray = GenerateArray(num);
 // ShowArray(myArray);
+
+// Цикл, который принимает на вход 2 числа (A и B) и возводит число A в натуральную степень B.
+// int NumberDegree(int number1, int number2)
+// {
+//     int degree = 1;
+//     for (int i = 1; i <= number2; i++)
+//     {
+//         degree = degree*number1;
+//     }
+//     return degree;
+// }
+// Console.WriteLine("Введите число A: ");
+// int A = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число B: ");
+// int B = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"{A}, {B} -> {NumberDegree(A, B)}");
+
