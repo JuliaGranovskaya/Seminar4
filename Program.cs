@@ -16,12 +16,12 @@
 // }
 
 // Вывести массив из 8 элементов, заполненный нулями и единицами в случайном порядке
-// int[] GenerateRandomArray(int N)
+// int[] GenerateRandomArray(int N, int start, int end)
 // {
 //     int[] RandomArray = new int[N];
 //     for (int i = 0; i < N; i++)
 //     {
-//         RandomArray[i] = new Random().Next();
+//         RandomArray[i] = new Random().Next(start, end + 1);
 //     }
 //     return RandomArray;
 // }
@@ -98,6 +98,7 @@
 //     while (index < N)
 //     {
 //         collection[index] = new Random().Next(start, end + 1);
+//            Console.Write(collection[index] +", ");
 //         index++;
 //     }
 //     return collection;
@@ -107,11 +108,13 @@
 // {
 //     int count = col.Length;
 //     int position = 0;
+//     Console.Write("-> [");
 //     while (position < count)
 //     {
 //         Console.Write(col[position] +" ");
 //         position++;
 //     }
+//     Console.Write("]");
 // }
 // Console.WriteLine("Введите количество элементов в массиве");
 // int num = Convert.ToInt32(Console.ReadLine());
@@ -122,4 +125,3 @@
 
 // int [] myArray = FillArray(num, min, max);
 // PrintArray(myArray);
-
