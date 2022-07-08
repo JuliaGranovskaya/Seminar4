@@ -82,7 +82,7 @@
 //     while (num > 0)
 //     {
 //         sum = sum + num % 10;
-//         num = (num - num % 10) / 10;
+//         num = num / 10;
 //     }
 //     return sum;
 // }
